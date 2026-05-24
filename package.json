@@ -1,0 +1,56 @@
+{
+  "name": "react-native-usb-serial-android",
+  "version": "0.1.0",
+  "description": "USB Serial communication for React Native on Android — correct permission handling for Android 12, 13, 14+ with a clean React hook API.",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "!android/build",
+    "!android/.gradle",
+    "!**/__tests__",
+    "!**/.DS_Store"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "usb",
+    "serial",
+    "usb-serial",
+    "uart",
+    "ftdi",
+    "ch340",
+    "cp2102",
+    "iot",
+    "hardware"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petkarsanathraj/react-native-usb-serial-android.git"
+  },
+  "author": "Sanath Raj Petkar <sanathpetkar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petkarsanathraj/react-native-usb-serial-android/issues"
+  },
+  "homepage": "https://github.com/petkarsanathraj/react-native-usb-serial-android#readme",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.71"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "react": "19.1.0",
+    "react-native": "0.80.0",
+    "typescript": "^5.4.0"
+  }
+}

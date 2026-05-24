@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+lib/
+*.tgz
+
+# Android
+android/build/
+android/.gradle/
+android/local.properties
+android/captures/
+*.iml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Example
+example/node_modules/
+example/android/build/
+example/android/.gradle/
+example/android/app/build/
+example/ios/Pods/
+example/ios/build/
+example/.expo/
